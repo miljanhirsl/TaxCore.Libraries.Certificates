@@ -29,5 +29,5 @@ This package can be used to export the following certificates data:
   - Email - Not currently in use,
   - GivenName - Not currently in use,
   - StreetAddress - Physical street address,
-  - SurName - Authorized Person first name.
+  - SurName - Authorized Person first name
   
