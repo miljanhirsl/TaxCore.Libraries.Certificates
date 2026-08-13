@@ -47,7 +47,12 @@ namespace TaxCore.Libraries.Certificates
         /// <summary>
         /// Sign data certificate class 2 used for signing data on virtual Developer Secure Element
         /// </summary>
-        CertificateClassV38 = 38
+        CertificateClassV38 = 38,
+
+        /// <summary>
+        /// HTTPS auth certificate class 1 same as V32, but with ECC-384 (NIST curve) key pair and ECDSA signing
+        /// </summary>
+        CertificateClassV39 = 39
     }
 
     public class CertificateClassification : Dictionary<CertificateTypes, CertificateTemplate>
@@ -107,6 +112,7 @@ namespace TaxCore.Libraries.Certificates
         public static string CertificateClassV36 = "3.6";
         public static string CertificateClassV37 = "3.7";
         public static string CertificateClassV38 = "3.8";
+        public static string CertificateClassV39 = "3.9";
     }
 
 }

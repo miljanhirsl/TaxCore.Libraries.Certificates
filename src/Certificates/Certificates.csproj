@@ -7,10 +7,10 @@
     <Nullable>enable</Nullable>
     <AssemblyName>TaxCore.Libraries.$(MSBuildProjectName)</AssemblyName>
     <RootNamespace>TaxCore.Libraries.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
-    <PackageProjectUrl>https://github.com/Data-Tech-International/TaxCore-Libraries</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Data-Tech-International/TaxCore.Libraries.Certificates</PackageProjectUrl>
     <PackageIcon>taxcore.png</PackageIcon>
-    <RepositoryUrl>https://github.com/Data-Tech-International/TaxCore-Libraries</RepositoryUrl>
-    <PackageLicenseUrl>https://github.com/Data-Tech-International/TaxCore-Libraries/blob/main/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Data-Tech-International/TaxCore.Libraries.Certificates</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/Data-Tech-International/TaxCore.Libraries.Certificates/blob/main/LICENSE</PackageLicenseUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>Libraries for work with certificates created by the TaxCore solution</Description>
 	</PropertyGroup>

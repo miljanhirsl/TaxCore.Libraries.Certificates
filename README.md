@@ -13,7 +13,7 @@ This package can be used to export the following certificates data:
 - CertificateType - Type of certificate in the system
   - IsEncryption - Type V36 - used for data encryption
   - IsSigning - Type V33, V35 and V38 - used for applying digital signature
-  - IsAuthentication - Type V32, V34 and V37 - used for authentication to web services
+  - IsAuthentication - Type V32, V34, V37 and V39 - used for authentication to web services
 - DateRevoked - Date of certificate revocation (exists if the certificate is revoked)
 - RevokeReasonDescription - Additional information about revocation entered manually 
 - CertificateRevokeReason - Reason for revocation selected from the list

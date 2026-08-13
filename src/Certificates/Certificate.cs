@@ -219,7 +219,7 @@ namespace TaxCore.Libraries.Certificates
 
         public bool IsSigning => CertificateType == CertificateTypes.CertificateClassV33 || CertificateType == CertificateTypes.CertificateClassV35 || CertificateType == CertificateTypes.CertificateClassV38;
 
-        public bool IsAuthentication => CertificateType == CertificateTypes.CertificateClassV32 || CertificateType == CertificateTypes.CertificateClassV34 || CertificateType == CertificateTypes.CertificateClassV37;
+        public bool IsAuthentication => CertificateType == CertificateTypes.CertificateClassV32 || CertificateType == CertificateTypes.CertificateClassV34 || CertificateType == CertificateTypes.CertificateClassV37 || CertificateType == CertificateTypes.CertificateClassV39;
 
         public virtual RSA GetPrivateKeyRSA() => this.GetRSAPrivateKey();
         public virtual RSA GetPublicKeyRSA() => this.GetRSAPublicKey();
